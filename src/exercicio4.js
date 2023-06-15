@@ -4,8 +4,8 @@
   
     if (tipo === "par") {
       for ( i = 0; i < vetor.length; i++) {
-        if (vetor[i] % 2 === 0) {
-          par[i] = vetor[i]
+        if (vetor[i] % 2 == 0) {
+          par.push(vetor[i]);
         }
       }
       return par;
@@ -13,8 +13,8 @@
   
     if (tipo === "ímpar") {
       for ( i = 0; i < vetor.length; i++) {
-        if (vetor[i] % 2 !== 0) {
-            impar[i] = vetor[i]
+        if (vetor[i] % 2 != 0) {
+            impar.push(vetor[i]);
         }
       }
       return impar;
