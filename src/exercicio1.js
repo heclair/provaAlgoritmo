@@ -1,9 +1,8 @@
 function area(x){
+    
     lado1 = x;
 
-
     a1 = ((x**2)*Math.sqrt(3))/4;
-
 
     return a1;
 }
